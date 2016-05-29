@@ -1,0 +1,6 @@
+{
+  "name": "Pyxkcd",
+  "tagline": "Small Yad Dependant Python Script to Read Xkcd",
+  "body": "# PyXkcsd\r\n\r\nSmall Yad Dependant Python Script to Read Xkscd\r\n\r\nInstall the yad dependency for python ` sudo python3 -m pip install yad`",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
