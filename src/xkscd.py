@@ -6,7 +6,7 @@ import urllib.request
 
 
 
-print ("START\n")
+##print ("START\n")
 
 json_xkscd_text = requests.get("http://xkcd.com/info.0.json")
 
