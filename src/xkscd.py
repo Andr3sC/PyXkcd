@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import requests
 import json
 from yad import YAD
@@ -14,11 +15,11 @@ json_xkscd = json.loads(json_xkscd_text.text)
 
 yad = YAD()
 with tempfile.NamedTemporaryFile() as kscd_img:
-    print("nombre [", kscd_img.name, "]")
+##    print("nombre [", kscd_img.name, "]")
     urllib.request.urlretrieve(json_xkscd['img'],kscd_img.name)
     yad_parameters= []
     yad_parameters.append("--image="+kscd_img.name)
-    yad_parameters.append("--timeout=15")
+    yad_parameters.append("--timeout=30")
     yad_parameters.append("--timeout-indicator=top")
     #yad_parameters.append("--no-buttons")
     yad_parameters.append("--buttons-layout=center")
